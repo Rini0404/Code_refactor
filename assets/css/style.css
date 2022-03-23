@@ -9,14 +9,17 @@ body {
 }
 
 header {
-    padding: 20px;
+    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
+
+/* added padding to make it look how it was again. */
 header{
     list-style-type: none;
+    padding: 20px;
 
 }
 
@@ -55,11 +58,9 @@ p {
     font-size: 16px;
 }
 
-/* added the nav here to edit the nav, I had to push the nav up. */
+/* added the nav here to edit the nav */
 nav {
-    bottom: 50px;
-    position: relative;
-    text-align: right;
+    float: right;
 }
 
  /*chnaged the class to footer */
